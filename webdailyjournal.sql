@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Waktu pembuatan: 10 Jan 2025 pada 18.44
--- Versi server: 10.4.32-MariaDB
--- Versi PHP: 8.2.12
+-- Host: sql200.byetcluster.com
+-- Waktu pembuatan: 11 Jan 2025 pada 06.29
+-- Versi server: 10.6.19-MariaDB
+-- Versi PHP: 7.2.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `webdailyjournal`
+-- Database: `if0_38085183_webdailyjournal`
 --
 
 -- --------------------------------------------------------
@@ -41,11 +42,11 @@ CREATE TABLE `article` (
 --
 
 INSERT INTO `article` (`id`, `judul`, `isi`, `gambar`, `tanggal`, `username`) VALUES
-(1, 'Solo leveling', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '1.jpg', '2014-12-24 10:54:54', 'admin'),
-(2, 'Spy X Family', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '2.jpg', '2024-12-04 11:05:00', 'admin'),
-(3, 'Blue Lock', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '3.jpg', '2024-12-04 11:05:00', 'admin'),
-(4, 'Kimi No Nawa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '4.jpg', '2024-12-04 11:05:00', 'admin'),
-(5, 'Mitsuha', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '5.jpg', '2024-12-04 11:05:00', 'admin');
+(1, 'Kucing Adipisicing', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '20250111181837.jpg', '2025-01-11 18:18:37', 'admin'),
+(2, 'Kucing Lorem', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '20250111181655.jpg', '2025-01-11 18:16:55', 'admin'),
+(3, 'Kucing Ipsum', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '20250111181715.jpg', '2025-01-11 18:17:15', 'admin'),
+(4, 'Kucing Dolor', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '20250111181741.jpg', '2025-01-11 18:17:41', 'admin'),
+(5, 'Kucing SitAmet', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos?', '20250111181810.jpg', '2025-01-11 18:18:10', 'admin');
 
 -- --------------------------------------------------------
 
@@ -65,13 +66,12 @@ CREATE TABLE `gallery` (
 --
 
 INSERT INTO `gallery` (`id`, `tanggal`, `gambar`, `username`) VALUES
-(3, '2025-01-10 14:30:09', '20250110143009.jpg', 'admin'),
-(4, '2025-01-10 14:30:20', '20250110145108.jpg', 'admin'),
-(5, '2025-01-10 14:30:27', '20250110143027.jpg', 'admin'),
-(6, '2025-01-10 14:30:35', '20250110143035.jpg', 'admin'),
-(7, '2025-01-10 14:30:46', '20250110143046.jpg', 'admin'),
-(8, '2025-01-10 14:30:59', '20250110143059.jpg', 'admin'),
-(9, '2025-01-10 14:31:08', '20250110145058.jpg', 'admin');
+(3, '2025-01-10 14:30:09', '20250111181603.jpg', 'admin'),
+(4, '2025-01-10 14:30:20', '20250111181545.jpg', 'admin'),
+(5, '2025-01-10 14:30:27', '20250111181526.jpg', 'admin'),
+(6, '2025-01-10 14:30:35', '20250111181508.jpg', 'admin'),
+(8, '2025-01-10 14:30:59', '20250111181439.jpeg', 'admin'),
+(10, '2025-01-11 18:16:22', '20250111181622.jpeg', 'admin');
 
 -- --------------------------------------------------------
 
@@ -91,7 +91,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`, `foto`) VALUES
-(0, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 's-l1200.jpg'),
+(0, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'sg-11134201-23010-cbj7fdauqxlv0e.jpg'),
 (1, 'fabian68', '7813d1590d28a7dd372ad54b5d29d033', 'gintoki-sakata-bb7325c2-287f-4e22-85c0-3aa8a219178-resize-750-3b03ddbf7854291e48ced17346253753_600x400 (1) (1).png');
 
 --
@@ -118,7 +118,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
