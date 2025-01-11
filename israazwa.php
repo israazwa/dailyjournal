@@ -93,8 +93,8 @@ if (!isset($_SESSION['username'])) {
     <footer class="text-center p-5 bg-danger-subtle">
         <div>
             <a href="https://www.instagram.com/kharinzanthema/"><i class="bi bi-instagram h2 p-2 text-dark"></i></a>
-            <a href="#"><i class="bi bi-twitter h2 p-2 text-dark"></i></a>
-            <a href="#"><i class="bi bi-whatsapp h2 p-2 text-dark"></i></a>
+            <a href="https://www.instagram.com/kharinzanthema/"><i class="bi bi-twitter h2 p-2 text-dark"></i></a>
+            <a href="https://www.instagram.com/kharinzanthema/"><i class="bi bi-whatsapp h2 p-2 text-dark"></i></a>
         </div>
         <div>Isra Shahzada Azwa Saqiba&copy; 2024</div>
     </footer>
