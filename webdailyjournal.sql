@@ -92,7 +92,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`, `foto`) VALUES
 (0, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'sg-11134201-23010-cbj7fdauqxlv0e.jpg'),
-(1, 'fabian68', '7813d1590d28a7dd372ad54b5d29d033', 'gintoki-sakata-bb7325c2-287f-4e22-85c0-3aa8a219178-resize-750-3b03ddbf7854291e48ced17346253753_600x400 (1) (1).png');
+(1, 'israazwa', '7813d1590d28a7dd372ad54b5d29d033', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzfd_DeoiWKLK7c8fnZ4j1wd_WDozHHI2r3w&s');
 
 --
 -- Indexes for dumped tables
